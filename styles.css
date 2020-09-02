@@ -1,0 +1,40 @@
+.contenedor {
+  background-color: #550a46;
+  color: #fff;
+  width: 90%;
+  max-width: 800px;
+  margin: 29.92px auto;
+  padding: 29.92px;
+  border-radius: 0.5em;
+  font-size: 1em; 
+}
+
+.contenedor h1 {
+  color: #f8b400;
+  margin: 1em;
+  font-family: serif;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.contenedor p {
+  line-height: 200%;
+  margin-bottom: 1.2em;
+  font-size: 1em;
+}
+
+.contenedor button {
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  border: none;
+  color: #fff;
+  background: #517be3;
+}
+
+@media all and (max-width: 500px) {
+  .contenedor {
+    font-size: 10px;
+  }
+}
+
